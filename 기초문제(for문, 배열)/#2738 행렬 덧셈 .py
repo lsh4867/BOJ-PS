@@ -21,7 +21,7 @@ for i in range(1, a+1):
   print()
 
 
-# 내코드 -> GPT 디벨롭
+# 내코드 -> GPT 디벨롭 (List Comprehension 기가 막히네,,)
 a, b = map(int, input().split())
 
 list_1 = [list(map(int, input().split())) for _ in range(a)]
